@@ -1,0 +1,112 @@
+[
+    {
+        "firstName": "Clark",
+        "lastName": "Hears",
+        "dateOfBirth": "1958-07-14",
+        "startDate": "2020-09-13",
+        "street": "3688 Main St",
+        "city": "Coast City",
+        "state": "Alabama", 
+        "zipCode": "93115",
+        "department": "Sales"
+    },
+    {
+        "firstName": "Yon",
+        "lastName": "Rogers",
+        "dateOfBirth": "1992-10-11",
+        "startDate": "2013-02-01",
+        "street": "2223 Washington Street",
+        "city": "Metropolis",
+        "state": "Georgia", 
+        "zipCode": "73366",
+        "department": "Marketing"
+    },
+    {
+        "firstName": "Sam",
+        "lastName": "Banner",
+        "dateOfBirth": "1960-05-09",
+        "startDate": "2020-03-14",
+        "street": "4394 Rockwell Lane",
+        "city": "Atlas",
+        "state": "Kentucky", 
+        "zipCode": "64522",
+        "department": "Engineering"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Kent",
+        "dateOfBirth": "1989-03-21",
+        "startDate": "2001-06-24",
+        "street": "3790 Rhode Island Avenue",
+        "city": "Metropolis",
+        "state": "Nebraska", 
+        "zipCode": "67580",
+        "department": "Human Resources"
+    },
+    {
+        "firstName": "Bob",
+        "lastName": "Tailor",
+        "dateOfBirth": "1950-12-03",
+        "startDate": "2002-12-12",
+        "street": "316 North Avenue",
+        "city": "Kingston",
+        "state": "Michigan", 
+        "zipCode": "33931",
+        "department": "Legal"
+    },
+    {
+        "firstName": "Steve",
+        "lastName": "Prince",
+        "dateOfBirth": "1978-06-08",
+        "startDate": "2016-08-12",
+        "street": "2223 Washington Street",
+        "city": "Kingston",
+        "state": "Alabama", 
+        "zipCode": "28501",
+        "department": "Marketing"
+    },
+    {
+        "firstName": "Charlie",
+        "lastName": "Brown",
+        "dateOfBirth": "1972-01-25",
+        "startDate": "2019-01-01",
+        "street": "156 Main St",
+        "city": "Kingston",
+        "state": "New York", 
+        "zipCode": "83816",
+        "department": "Engineering"
+    },
+    {
+        "firstName": "Grace",
+        "lastName": "Lee",
+        "dateOfBirth": "2003-03-17",
+        "startDate": "2021-02-02",
+        "street": "878 Washington Street",
+        "city": "Kingston",
+        "state": "Oklahoma", 
+        "zipCode": "20005",
+        "department": "Human Resources"
+    },
+    {
+        "firstName": "Helen",
+        "lastName": "Evans",
+        "dateOfBirth": "1980-05-20",
+        "startDate": "2022-03-03",
+        "street": "555 North Avenue",
+        "city": "Kingston",
+        "state": "Palau", 
+        "zipCode": "68846",
+        "department": "Sales"
+    },
+    {
+        "firstName": "Frank",
+        "lastName": "Johnson",
+        "dateOfBirth": "1999-06-25",
+        "startDate": "2024-01-01",
+        "street": "120 Rhode Island Avenue",
+        "city": "Kingston",
+        "state": "Utah", 
+        "zipCode": "48411",
+        "department": "Legal"
+    }
+  ]
