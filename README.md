@@ -1,19 +1,19 @@
-# Wealth Health
+# Wealth Health back-end
 
-# Faites passer une librairie jQuery vers React - Projet 14
+# Faites passer une librairie jQuery vers React - Projet 14  
 https://github.com/CamilleStagiaire/P14-back-end.git
-
 *Formation Développeur d'application - JavaScript React*
 
-# Etapes
-**installation et lancement du back-end:**  
-npm init -y  
-npm install express mongoose cors  
+### Prerequis
+- [Node.js](https://nodejs.org/en/) > v16  
+- [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
-**Configuration d'un serveur Express de base:**    
+### Installation
+- Forker le repo  
+- npm install  
+- npm start  
 
-**Connexion à MongoDB:**  
+Le server se lance sur le port 5000  
 
-**Demarrage du serveur:**  
-node server.js  
-
+### MongoDB
+- table employeesDB  

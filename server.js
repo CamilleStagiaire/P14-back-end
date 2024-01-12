@@ -15,13 +15,13 @@ mongoose.connect('mongodb://0.0.0.0/employeesDB');
 const employeeSchema = new mongoose.Schema({
   firstName: String,
   lastName: String,
-  dateOfBirth: Date,
   startDate: Date,
+  department: String,
+  dateOfBirth: Date,
   street: String,
   city: String,
   state: String,
-  zipCode: String,
-  department: String
+  zipCode: String
 });
 
 // Model for the Employee
