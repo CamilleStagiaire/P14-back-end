@@ -11,21 +11,8 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose.connect('mongodb://0.0.0.0/employeesDB');
 
-// Schema for the Employee
-const employeeSchema = new mongoose.Schema({
-  firstName: String,
-  lastName: String,
-  startDate: Date,
-  department: String,
-  dateOfBirth: Date,
-  street: String,
-  city: String,
-  state: String,
-  zipCode: String
-});
-
 // Model for the Employee
-const Employee = mongoose.model('Employee', employeeSchema);
+const Employee = require('./EmployeeModel');
 
 // Routes
 app.get('/api/employees', async (req, res) => {

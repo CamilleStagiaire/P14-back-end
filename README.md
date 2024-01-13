@@ -11,9 +11,8 @@ https://github.com/CamilleStagiaire/P14-back-end.git
 ### Installation
 - Forker le repo  
 - npm install  
+- npm run hrnet-db  
 - npm start  
 
 Le server se lance sur le port 5000  
 
-### MongoDB
-- table employeesDB  

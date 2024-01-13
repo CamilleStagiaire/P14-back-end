@@ -10,3 +10,13 @@ npm install express mongoose cors
 
 **Demarrage du serveur:**  
 npm start 
+
+### MongoDB
+Importer les employés:
+Documents :
+ADD DATA import json employees.json
+
+
+
+### MongoDB
+- table employeesDB  
