@@ -15,4 +15,4 @@ https://github.com/CamilleStagiaire/P14-back-end.git
 - npm start  
 
 Le server se lance sur le port 5000  
-
+La base de données est visible dans mongoDB
