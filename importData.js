@@ -1,17 +1,14 @@
-const mongoose = require("mongoose");
 const fs = require("fs");
 const Employee = require("./EmployeeModel");
+const connectDB = require("./config/dbConnect");
 
 //Connect to MongoDB database
-mongoose.connect("mongodb://0.0.0.0/employeesDB", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+connectDB()
 
 //import data from JSON file
 const importData = async () => {
   try {
-    Employee.deleteMany({});
+    await Employee.deleteMany();
     const data = JSON.parse(fs.readFileSync("employees.json", "utf-8"));
     await Employee.insertMany(data);
     console.log("Data successfully imported!");

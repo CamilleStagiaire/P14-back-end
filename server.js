@@ -1,5 +1,5 @@
 const express = require("express");
-const mongoose = require("mongoose");
+const connectDB = require("./config/dbConnect")
 const cors = require("cors");
 const Employee = require("./EmployeeModel");
 
@@ -9,12 +9,11 @@ const Employee = require("./EmployeeModel");
  */
 const app = express();
 
+connectDB();
+
 // Middleware
 app.use(cors());
 app.use(express.json());
-
-// Connect to MongoDB
-mongoose.connect("mongodb://0.0.0.0/employeesDB");
 
 /**
  * Route to get all employees

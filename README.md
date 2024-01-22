@@ -1,7 +1,7 @@
 # Wealth Health back-end
 
 # Faites passer une librairie jQuery vers React - Projet 14  
-https://github.com/CamilleStagiaire/P14-back-end.git
+https://github.com/CamilleStagiaire/P14-back-end.git  
 *Formation Développeur d'application - JavaScript React*
 
 ### Prerequis
@@ -11,7 +11,6 @@ https://github.com/CamilleStagiaire/P14-back-end.git
 ### Installation
 - Forker le repo  
 - npm install  
-- npm run hrnet-db  
 - npm start  
 
 Le server se lance sur le port 5000  
