@@ -9,7 +9,7 @@ https://github.com/CamilleStagiaire/P14-back-end.git
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 
 ### Installation
-- Forker le repo  
+- cloner / forker le repo  
 - npm install  
 - npm start  
 
